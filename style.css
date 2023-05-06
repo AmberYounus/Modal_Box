@@ -1,0 +1,39 @@
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    top: 57px !important;
+    width: 50% !important;
+  }
+  .close{
+    color: #aaa;
+    float: right;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    position: absolute;
+    right: 14px;
+}
+  
+  .close:hover,
+  .close:focus{
+    color: black;
+    cursor: pointer;
+  }
+
+  #btn{
+    position: relative;
+    left: 664px;
+    top: 140px;
+    padding: 20px 20px;
+    font-size: 14px;
+    border: none;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+  }
